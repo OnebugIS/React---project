@@ -1,0 +1,31 @@
+
+.head{
+  padding-top: 44px;
+ 
+}
+.myul{
+  position: fixed;
+  list-style: none;
+  display: flex; 
+  justify-content: space-around;
+  height:38px;
+  border:1px solid #e0e0e0;
+  border:1px 0;
+  width:100%;
+  background-color: #fff;
+  li{
+    box-sizing:border-box;
+    height:38px;
+    font-size:13px;
+    line-height: 38px;
+    color:#717171;
+    text-align: center;
+    padding:0 10px;
+    width:33.333333%;
+   border-left:1px solid #e0e0e0;
+  }
+}
+.top{
+  padding-top:44px;
+   overflow: hidden;
+}

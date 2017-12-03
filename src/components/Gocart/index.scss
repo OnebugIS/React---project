@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+	width:100%;
+}
+
+
+#gocart{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}	
+.navh{
+	width:100%;
+	height:44px;
+  .he{
+	width:100%;
+	position:fixed;
+	background:#F64744;
+    z-index: 3;
+  ul{
+  list-style:none;
+  display: flex;
+  justify-content:space-between;
+  height:44px;
+  line-height: 44px;
+  li{
+    color:#fff;
+    font-size: 14px;
+  }
+  .f1{
+		width:13px;
+		height:13px;
+		margin-left: 13px;
+		margin-top: 15px;
+        display: inline-block;
+        border:2px solid #fff;
+        border-width:2px 0 0 2px;
+        transform: rotate(-45deg);
+        box-sizing:border-box;
+        
+	}
+  .f2{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .f3{
+    margin-right: 10px;
+    i{
+      margin-right: 5px;
+      font-size: 20px;
+      color:#fff;
+
+    }
+  }
+ }
+}	
+}
+.navm{
+	flex:1;
+	
+.thing{
+	position:relative;
+	top:44px;
+	width:100%;
+	table{
+		width:100%;
+		tr{
+			width:100%;
+			border-bottom:1px solid #e0e0e0;
+			border-top:1px solid #e0e0e0;
+			text-align: center;
+			th{
+				font-size:1px;
+
+			}
+             td{
+             	font-size: 10px;
+             	color:#666;
+             }        
+		}
+    }
+  }
+
+}
+
+#listdemo{
+	border:0px;
+	width:100px;
+	
+	
+	.am-list{
+		width:100px;
+		text-align: center;
+	.am-list-body{
+		border:0px;
+		width:100px;
+		text-align: center;
+		.am-list-item{
+			padding-left:0px;
+			display: inline-block;
+			text-align: center;
+		.am-list-line-wrap{
+			width:100px;
+			padding-right:0px;
+			display: inline-block;
+			margin:0 auto;
+			.am-list-extra{
+				flex-basis:0;
+                text-align: center;
+                padding-top:5px;
+                padding-bottom:5px;
+                float: left;
+                .am-stepper{
+                	width:50px;
+                .am-stepper-input-wrap{
+                	font-size:16px;
+                }
+			}
+		}
+		}
+	}
+}
+}
+}
+
+
+.pagination-container {
+  margin: 0 15px;
+}
+
+.custom-pagination-with-icon .am-pagination-wrap-btn-prev .am-button-inline{
+  padding-left: 0;
+  padding-right: 10px;
+}
+.custom-pagination-with-icon .am-pagination-wrap-btn-next .am-button-inline{
+  padding-left: 10px;
+  padding-right: 0;
+}
+.arrow-align {
+  display: flex;
+  align-items: center;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
